@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: solid #e61c5d;
+    border-left: solid #e61c5d;
+    border-right: solid #e61c5d;
+    background-image: url("imagenes/r_marmol-negro.jpg");
+}
+
+main {
+    width: 80%;
+    background-image: image();
+    position: relative;
+    left: 0px;
+    background-image: url("imagenes/fondo.jpg");
+}
+
+/*TEXTO*/
+
+h1 {
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+h2 {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+
+h3 {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h4 {
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+}
+
+h5 {
+    font-size: medium;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+}
+
+h6 {
+    font-size: medium;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+}
+
+p {
+    font-size: medium;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    font-style: italic;
+}
+
+dt {
+    font-size: medium;
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 4%;
+
+}
+
+dl {
+    font-size: medium;
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 4%;
+}
+
+li {
+    font-size: medium;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+
+/*BARRA DE NAVEGACION*/
+nav {
+    width: 100%;
+}
+
+figure {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+img {
+    margin-left: 17%;
+    margin-right: 17%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #e61c5d;
+
+
+}
+
+figcaption {
+
+    position: absolute;
+    top: 15%;
+    color: #e61c5d;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    ;
+}
+
+
+.flex-container {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid #e61c5d;
+
+}
+
+
+
+.infoPers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e61c5d;
+    font-size: large;
+    background: none;
+    height: 100%;
+    width: 100%;
+}
+
+.est {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e61c5d;
+    font-size: large;
+    height: 100%;
+    width: 100%;
+}
+
+.expL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e61c5d;
+    font-size: large;
+    height: 100%;
+    width: 100%;
+}
+
+.cRed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e61c5d;
+    font-size: large;
+    height: 100%;
+    width: 100%;
+}
+
+.telMail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 24rem;
+    left: 20%;
+}
+
+/*MAPA*/
+
+
+.contactoRedes {
+    width: 100%;
+}
+
+.mapa {
+    width: 40%;
+}
+
+/*CAMBIO COLOR BOTONES BARRA DE NAVEGACION*/
+
+
+.infoPers:hover {
+    background-color: white;
+    color: #25d366
+}
+
+.est:hover {
+    background-color: white;
+    color: #25d366
+}
+
+.expL:hover {
+    background-color: white;
+    color: #25d366
+}
+
+.cRed:hover {
+    background-color: white;
+    color: #25d366
+}
+
+/*BOTONES REDES SOCIALES*/
+
+.botonesRedes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 18.75rem;
+    left: 20%;
+
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366;
+}
+
+
+.icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow: 0 0 20px #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+    background-color: #e60073;
+    box-shadow: 0 0 20px #e60073;
+}
+
+.icon i {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
+
+/*BOTON UP*/
+
+.botUp {
+    width: 50px;
+    height: 50px;
+    outline: 0;
+    border-radius: 50%;
+    border: 1px solid #e61c5d;
+    background-image: url("imagenes/r_marmol-negro.jpg");
+    position: fixed;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-sort-up {
+    color: #e61c5d;
+    font-size: 18px;
+}
+
+.botUp:hover {
+    opacity: .75;
+}
+
+/* BOTON UP OCUTAR*/
+.oculto {
+    opacity: 0;
+}
+
+.activo {
+    opacity: 1;
+}
+
+
+
+/*MEDIA CAMBIO A RESPONASBLE*/
+@media screen and (max-width: 800px) {
+
+    /*REDES SOCIALES Y MAPA*/
+    .botonesRedes {
+        left: 0%;
+        bottom: 0%;
+    }
+
+    .mapa {
+        position: relative;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 95%;
+    }
+
+    .telMail {
+
+        left: 0%;
+        bottom: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    /*BARRA DE NAVEGACION*/
+
+    .infoPers {
+        word-wrap: break-word;
+        text-align:center;
+        align-items: center;
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding-top: 12%;
+    }
+
+    .est {
+        word-wrap: break-word;
+        text-align:center;
+        align-items: center;
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding-top: 12%;
+    }
+
+    .expL {
+        word-wrap: break-word;
+        text-align:center;
+        align-items: center;
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding-top: 12%;
+
+    }
+
+    .cRed {
+        word-wrap: break-word;
+        text-align:center;
+        align-items: center;
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding-top: 12%;
+    }
+
+    figcaption {
+        visibility: hidden;
+    }
+    .botUp {
+        visibility: hidden;
+}
+}
